@@ -1,0 +1,19 @@
+/* Add CSS rules here! */
+ul {
+  display:		flex;
+  flex-wrap:	wrap;
+  width:		300px;
+  height:		300px
+}
+
+li {
+  list-style-type:	none;
+  background-color:	lightblue;
+  width:			90px;
+  heigth:			90px;
+  font-size:		80px;
+  font-family:		sans-serif;
+/*   border:			5px solid white; */
+  margin: 5px;
+  text-align:		center;
+}

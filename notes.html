@@ -4,6 +4,8 @@
         <title>
             My HTML notes
         </title>
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
     <body>
       <strong>
@@ -253,7 +255,103 @@
           <li>Each node has only one parent, except root</li>
         </ul>
         <p>
-
+	  Style tag: <br>
+	  added in the head section, and it describes the style an element should have <br>\
+	  it can be applied either:
         </p>
+	<ul>
+	  <li>inline</li>
+	  <li>internal</li>
+	  <li>external</li>
+	</ul>
+	<p>
+		When working with attributes, you may use multiple values within quotes<br>
+		However, the quotes could be removed, provided that the values are not separated
+		by white spaces, otherwise, the browser would treat it as another attribute
+	</p>
+	<p>
+		CSS syntax: <br>
+		ruleset:
+	</p>
+	<ul>
+	    <li>Selector</li>
+		<li>
+			Declaration block:
+			<ul>
+				<li>Property</li>
+				<li>Value</li>
+			</ul>
+		</li>
+	</ul>
+	<h6>
+		CSS selectors:
+	</h6>
+	<ul>
+		<li>Type selector (p, em, etc...)</li>
+		<li>Class selector (.class_name), useful for several elements</li>
+		<li>ID selector (#id_name), useful with a single element</li>
+		<li>Descendant selectors (two or more type selectors separated with 
+		a space, the first is the parent, the rest are nested children)</li>
+	</ul>
+	<h6>
+		Units:
+	</h6>
+	<ul>
+		<li>Pixels</li>
+		<li>Points (usually with fonts)</li>
+		<li>em "M"; a relative unit = font-size</li>
+	</ul>
+	<p>
+		Boxes have:
+	</p>
+	<ul>
+		<li>Width</li>
+		<li>Height</li>
+		<li>Padding (space inside the box)</li>
+		<li>Border</li>
+		<li>Margin (space outside the box)</li>
+	</ul>
+	<p>
+	    The link tag: <br>
+	    inserted into the head of the html page. It is commonly use to link to 
+	    CSS files. <br>
+	    It usually has 2 attributes:
+	</p>
+	<ul>
+	    <li>rel (relation)</li>
+	    <li>href (reference)</li>
+	</ul>
+	<p>
+	    Fonts can be altered using styling: <br>
+	    Properties like:
+	</p>
+	<ul>
+	    <li>Font family</li>
+	    <Li>Font size</Li>
+	    <li>Font weight (bold)</li>
+	    <li>Font style (italic)</li>
+	    <li>Text decoration (underline)</li>
+	</ul>
+	<div style="font-family: Tangerine, serif; font-size: 32pt;">
+	    Google provides
+	    <a href="https://fonts.google.com/">
+	        fonts
+	    </a>
+	    to use, and
+	    <a href="https://developers.google.com/fonts/docs/getting_started">
+	        instructions
+	    </a>
+	    to how on use its APIs
+	</div>
+	<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly">
+	    <div style="color:red;">
+	        CSS property float allows elements to "float" on the page rather
+	        than to be just centered
+	    </div>
+	    <div>
+	        CSS provided flexible box model (flexbox) which allows for more styling 
+	    polishing
+	    </div>
+	</div>
     </body>
 </html>

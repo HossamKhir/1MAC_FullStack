@@ -1,0 +1,6 @@
+https://www.w3schools.com/colors/colors_picker.asp
+https://developer.mozilla.org/en-US/
+https://developers.google.com/fonts/docs/getting_started
+https://fonts.google.com/
+https://css-tricks.com/almanac/properties/f/font/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes
