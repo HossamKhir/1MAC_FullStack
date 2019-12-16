@@ -1,0 +1,13 @@
+h1{
+/*   font-style: italic;
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 28pt; */
+font: italic 28pt Impact, "Fanklin Gothic Bold", "Arial Black", sans-serfi;  
+}
+
+p{
+/*   font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 16pt;*/
+  font: bold 16pt Consolas, "Courier New", Courier, monospace; */
+}
