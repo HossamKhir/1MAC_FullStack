@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 import turtle
-fred = turtle.Turtle()
+fred    =   turtle.Turtle()
 fred.color("red")
 fred.forward(100)
 fred.right(135)

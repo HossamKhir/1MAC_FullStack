@@ -2,7 +2,7 @@
 
 import turtle
 # melinda.color("gray")
-melinda = turtle.Turtle()
+melinda =   turtle.Turtle()
 melinda.color("gray")
 melinda.forward(100)
 melinda.left(120)
