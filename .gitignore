@@ -1,3 +1,4 @@
 # ignoring all pdf files
 *.pdf
+*.zip
 
