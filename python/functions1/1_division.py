@@ -2,10 +2,10 @@
 
 import turtle
 
-# Set the number of sides here.
+# Set the number of sides here
 sides = 5
 
-# Set the length of a side here.
+# Set the length of a side here
 length = 100
 
 t = turtle.Turtle()
@@ -16,5 +16,5 @@ for side in range(sides):
     # On the line above, replace the
     # value 72 with an arithmetic
     # expression that uses the
-    # 'sides' variable.
+    # 'sides' variable
 
