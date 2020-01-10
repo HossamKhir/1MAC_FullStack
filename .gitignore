@@ -1,4 +1,6 @@
 # ignoring all pdf files
 *.pdf
 *.zip
+*.vscode
+
 
